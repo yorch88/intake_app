@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tw-color-primary: 30 64 175; /* azul por defecto */
+  --tw-color-secondary: 100 116 139; /* gris */
+  --tw-color-accent: 249 115 22; /* naranja */
+}
+
+body {
+  @apply bg-secondary/10 text-slate-900;
+}
